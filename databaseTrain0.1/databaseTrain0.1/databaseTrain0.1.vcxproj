@@ -143,6 +143,7 @@
     <ClInclude Include="ArrayPlus.h" />
     <ClInclude Include="Column.h" />
     <ClInclude Include="Database.h" />
+<<<<<<< HEAD
     <ClInclude Include="Lexer.h" />
     <ClInclude Include="Parser.h" />
     <ClInclude Include="Row.h" />
@@ -150,10 +151,15 @@
     <ClInclude Include="Table.h" />
     <ClInclude Include="Tag.h" />
     <ClInclude Include="Token.h" />
+=======
+    <ClInclude Include="Row.h" />
+    <ClInclude Include="Table.h" />
+>>>>>>> 051d73574f993a8d27cfa4abca981562e95801cc
     <ClInclude Include="Where.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Column.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="DBs.cpp" />
     <ClCompile Include="Lexer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -161,6 +167,14 @@
     <ClCompile Include="Stmt.cpp" />
     <ClCompile Include="Table.cpp" />
     <ClCompile Include="Token.cpp" />
+=======
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="DBs.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Row.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="Where.cpp" />
+>>>>>>> 051d73574f993a8d27cfa4abca981562e95801cc
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

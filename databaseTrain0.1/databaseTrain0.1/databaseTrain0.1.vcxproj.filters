@@ -36,6 +36,7 @@
     <ClInclude Include="DBs.h">
       <Filter>头文件</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="Lexer.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -51,6 +52,8 @@
     <ClInclude Include="Stmt.h">
       <Filter>头文件</Filter>
     </ClInclude>
+=======
+>>>>>>> 051d73574f993a8d27cfa4abca981562e95801cc
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Table.cpp">
@@ -59,6 +62,7 @@
     <ClCompile Include="Column.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="DBs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -75,6 +79,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Stmt.cpp">
+=======
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Row.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Where.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBs.cpp">
+>>>>>>> 051d73574f993a8d27cfa4abca981562e95801cc
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
